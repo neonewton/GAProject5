@@ -1,0 +1,57 @@
+body{
+background-color : grey;
+
+}
+@media only screen and (max-width:600px) 
+  body{
+    background-color : blue;
+    
+    }
+
+
+h1{
+  color: purple;
+  background: yellow;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+  color: yellow;
+  background: blue;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h3{
+  color: black;
+  background: red;
+  text-align: center;
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.img_center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width : 200;
+  height : 200;
+}
+
+p {
+  font-family: MONOSPACE;
+  font-size: 20px;
+  text-align: center;
+}
+.text-overlay {
+  position: relative;
+  padding: 1rem;
+  font-size: 2rem;
+  font-weight: 100;
+  color: white;
+  backdrop-filter: blur(8px) brightness(80%);
+}
+
+.text-center {
+  text-align: center;
+}
